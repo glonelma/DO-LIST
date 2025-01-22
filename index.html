@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <input type="date" id="dueDateInput" />
+        <button id="addTaskBtn">Add Task</button>
+        
+        <div class="filters">
+            <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+        </div>
+        
+        <button id="clearCompletedBtn">Clear Completed</button>
+        
+        <ul id="taskList"></ul>
+        
+        <div id="taskCount">Tasks Left: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
